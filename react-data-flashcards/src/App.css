@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(34, 34, 34);
+}
+
+.nav {
+  background-color: rgb(52, 181, 224);
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  
+}
+
+.home {
+  margin-left: 5vw;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.middle-data {
+  height: 70vh;
+  width: 80vw;
+  background-color: white;
+  font-weight: bolder;
+
+}
+
+.middle-content {
+  margin-left: 5vw;
+  margin-top: 5vh;
+  font-size: 25px;
+}
+
+.counter-id {
+  margin-left: 60vw;
+}
+
+.name {
+  text-decoration: underline rgb(52, 181, 224);
+  font-size: 35px;
+}
+
+.movies {
+  margin-top: 5vh
+}
+
+.lower-nav {
+  width: 80vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10vw;
+  
+}
+
+.button-previous {
+  color: white;
+  background-color: rgb(34, 34, 34);
+  border: none;
+  font-size: 20px;
+}
+
+.buttons-2 {
+display: flex;
+justify-content: space-between;
+width: 16vw;
+}
+
+.edit, .delete, .new{
+  color: white;
+  border: none;
+  font-size: 20px;
+  background-color:  rgb(52, 181, 224);
+  border-radius: 10px;
+}
+
+.button-next {
+  color: white;
+  background-color: rgb(34, 34, 34);
+  border: none;
+  font-size: 20px;
+}
